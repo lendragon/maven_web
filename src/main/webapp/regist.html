@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/testInput.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/regist.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/check.css">
+</head>
+<body>
+    <h2>注册</h2>
+    <form action="./login.html" method="post">
+        *<label for="username">用户名:</label><input id="username" type="text" name="username"/><span></span><br>
+        *<label for="account">账号:</label><input id="account" type="text" name="account"/><span></span><br>
+        *<label for="password">密码:</label><input id="password" type="password" name="password"/><span></span><br>
+        *<label for="confirmPw">确认密码:</label><input id="confirmPw" type="password" name="confirmPw"/><span></span><br>
+        性别:
+        <label for="male">
+            <input id="male" type="radio" name="gender" value="male"/>男
+        </label>
+        <label for="female">
+            <input id="female" type="radio" name="gender" value="female"/>女
+        </label><br>
+        <label for="email">邮箱:</label><input id="email" type="text"name="email" /><br>
+        <label for="checkCode">验证码:</label><input id="checkCode"  type="text" name="checkCode"/><br>
+
+        <input id="submit" type="submit" value="确定"/>
+
+    </form>
+
+    <input type="button" onclick="location.href='index.html';" value="首页"/>
+    <input type="button" onclick="location.href='login.html';" value="点我去登录"/>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.spot {
+    font-size: 20px;
+    margin: 50px;
+    width: 200px;
+    background-color: #bfa;
+    display: inline-block;
+}
+
+.spot p {
+    text-align: center;
+    color: gray;
+}
+
+.spotImage {
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+h2 {
+    float: right;
+}
+
+#regist, #login {
+    float: right;
+}
+
+.collectOuter {
+    position: absolute;
+}
+
+.collectBtn {
+    position: absolute;
+    top: 290px;
+    right: 55px;
+    font-size: 20px;
+    width: 70px;
+    background-color: #ec971f;
+    color: white;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/testInput.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/check.css">
+    </head>
+    <body>
+    <h2>登录</h2>
+    <form action="index.html" method="post">
+        *<label for="account">账号:</label><input id="account" type="text" name="account"/><span></span><br>
+        *<label for="password">密码:</label><input id="password" type="password" name="password"/><span></span><br>
+        *<label for="checkCode">验证码:</label><input id="checkCode"  type="text" name="checkCode"/><span></span>
+        <img id="verify" src="verify/getVerify" />
+
+        <br>
+        <input id="submit" type="submit" value="确定"/>
+
+    </form>
+
+    <input type="button" onclick="location.href='index.html';" value="首页"/>
+    <input type="button" onclick="location.href='regist.html';" value="点我去注册"/>
+
+
+    </body>
+</html>

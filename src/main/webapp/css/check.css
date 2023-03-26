@@ -1,0 +1,16 @@
+.err {
+    position: absolute;
+    font-size: 15px;
+    color: red;
+
+}
+
+.right {
+    position: absolute;
+    font-size: 15px;
+    color: green;
+}
+
+#verify {
+    width: 100px;
+}
